@@ -10,6 +10,15 @@ public class Toyota extends Car {
         System.out.println(brand+" "+model+" is reliable");
     }
 
+
+    @Override //we can use this command for mark overriding method
+    public void start(){
+        System.out.println("Twist the key to ignition to start " + brand + " " + model);
+    }
+
+
+
+
 }
 
 /*
