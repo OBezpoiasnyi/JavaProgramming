@@ -11,7 +11,7 @@ public class Circle extends Shape{
     }
     public void setRadius(double radius) {
         if(radius<=0){
-            System.out.println("Invalid radius: " + radius);
+            System.err.println("Invalid radius: " + radius);
             System.exit(1);
         }
         this.radius = radius;
