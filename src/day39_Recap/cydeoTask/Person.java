@@ -17,6 +17,10 @@ public class Person {
         return age;
     }
     public void setAge(int age) {
+        if(age<=0){
+            System.err.println("Invalid age: " + age);
+            System.exit(1);
+        }
         this.age = age;
     }
 

@@ -8,7 +8,7 @@ public class Developer extends Employee{
 
 
     public void fixingBugs(){
-        System.out.println(getEmployeeID() + " " + getName() + " is fixing the bug.");
+        System.out.println(getJobTitle() + " " + getName() + " is fixing the bug.");
     }
     @Override
     public void work() {
