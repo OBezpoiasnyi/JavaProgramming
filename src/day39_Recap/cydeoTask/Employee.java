@@ -19,6 +19,10 @@ public class Employee extends Person{
         return employeeID;
     }
     public void setEmployeeID(int employeeID) {
+        if(employeeID<=0){
+            System.err.println("Invalid employee ID: " + employeeID);
+            System.exit(1);
+        }
         this.employeeID = employeeID;
     }
 
