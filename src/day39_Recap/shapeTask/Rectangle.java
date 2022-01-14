@@ -4,12 +4,6 @@ public class Rectangle extends Shape{
 
     public double length, width;
 
-    public Rectangle(String name, double length, double width) {
-        super(name);
-        this.length = length;
-        this.width = width;
-    }
-
 
     public double getLength() {
         return length;
@@ -33,4 +27,10 @@ public class Rectangle extends Shape{
         this.width = width;
     }
 
+
+    public Rectangle(double length, double width) {
+        super("Rectangle");
+        setLength(length);
+        setWidth(width);
+    }
 }
