@@ -11,7 +11,7 @@ public class Cydeo {
      Teacher teacher = new Teacher("David", 41, 'M', 3, "Math Teacher", 87000);
 
      Student student = new Student("Suhaib", 30, 'M', 8, "SDET");
-
+     
 
         System.out.println(developer);
         System.out.println(tester);
