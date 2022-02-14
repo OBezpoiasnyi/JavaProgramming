@@ -12,7 +12,7 @@ public class CarShop {
 
         Audi audi = new Audi("Q7", "White", 2020, 45000);
 
-        Tesla tesla = new Tesla("Model 3", "Blue", 2021, 60000);
+        Tesla tesla = new Tesla("Model 3",  60000,2021, "Blue", 2222);
 
         System.out.println(honda);
         System.out.println(audi);
